@@ -1,0 +1,6 @@
+## Admin
+# hexo-admin authentification
+admin:
+  username: wangnew2013
+  password_hash: $2a$10$qyrlqohBEWj5C8mUicfrl.iSOnMKED5.D2mRUzUyAqRB/nztuBH2S
+  secret: my super secret phrase
