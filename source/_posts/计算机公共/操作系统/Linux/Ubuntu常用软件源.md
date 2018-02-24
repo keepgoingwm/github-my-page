@@ -6,7 +6,7 @@ categories:
   - 操作系统
   - linux
 tags:
-  - 默认分类
+  - 默认标签
 comments: true
 mathjax: true
 date: 2017-08-18 15:00:08

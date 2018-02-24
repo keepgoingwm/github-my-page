@@ -5,7 +5,7 @@ description: 点进来看看吧
 categories:
 - hello-world
 tags:
-- 默认分类
+- 默认标签
 comments: true
 mathjax: true
 ---
