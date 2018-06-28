@@ -10,7 +10,7 @@
     "deploy": "hexo deploy -g"
   },
   "dependencies": {
-    "hexo": "^3.3.8",
+    "hexo": "^3.7.1",
     "hexo-admin": "^2.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
