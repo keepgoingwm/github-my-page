@@ -1,17 +1,19 @@
+---
 title: 你看不懂的JavaScript
 author: wm
 tags:
   - JavaScript
 categories:
-  - 语音学习
+  - 语言学习
+  - JavaScript
 date: 2018-06-28 15:02:00
 ---
 # 你看不懂的JavaScript
- 
+
 一些别有用心的写法、一些语法糖、一些巧妙的用法
 ## 语法糖、语法简略
- 
- 
+
+
 ### 属性函数省略function关键字
 ```
 obj {
@@ -28,7 +30,7 @@ obj {
   }
 }
 ```
- 
+
 ### ` !! `转为Boolean型
 ```
 if (!!string1 === true ) {
