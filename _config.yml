@@ -17,8 +17,10 @@ permalink_defaults:
 # hexo-admin authentification
 admin:
   username: wangnew2013
-  password_hash: $2a$10$qyrlqohBEWj5C8mUicfrl.iSOnMKED5.D2mRUzUyAqRB/nztuBH2S
-  secret: my super secret phrase
+  password_hash: $2a$10$9tmQUaYZm.Rfi2u/pdu9NujqMKkrVq9Oe/c5/hWLSBp/Rt1ljDvYe
+  secret: $2a$10$qyrlqohBEWj5C8mUicfrl.iSOnMKED5.D2mRUzUyAqRB/nztuBH2S
+  # deployCommand: './admin_script/hexo-generate.sh'
+  # expire: 60*1
 
 # Directory
 source_dir: source
