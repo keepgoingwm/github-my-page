@@ -6,6 +6,7 @@ tags:
 categories:
   - 语言学习
   - JavaScript
+abbrlink: 65009
 date: 2018-06-28 15:02:00
 ---
 # 你看不懂的JavaScript

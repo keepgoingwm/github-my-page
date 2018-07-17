@@ -9,6 +9,7 @@ tags:
   - 默认标签
 comments: true
 mathjax: true
+abbrlink: 24522
 date: 2017-08-18 15:00:08
 ---
 
