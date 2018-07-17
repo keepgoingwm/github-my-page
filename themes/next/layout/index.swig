@@ -3,7 +3,7 @@
 {% import '_macro/sidebar.swig' as sidebar_template %}
 
 {% block title %}
-  {{ theme.keywords }} - {{ config.title }} - {{ theme.description }}
+  {{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{{ theme.description }}
 {% endblock %}
 
 {% block page_class %}

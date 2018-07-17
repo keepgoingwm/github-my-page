@@ -11,8 +11,12 @@ language: zh-Hans
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://keepgoingwm.github.io/ # 网址
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+permalink: archives/:abbrlink.html
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
 
 # hexo-admin authentification
 admin:
@@ -98,6 +102,8 @@ search:
   format: html
   limit: 10000
 
+sitemap: 
+  path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
 
