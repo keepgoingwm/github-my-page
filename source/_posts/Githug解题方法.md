@@ -1,3 +1,4 @@
+---
 title: Githug解题方法
 author: wm
 tags:
@@ -5,6 +6,7 @@ tags:
 categories:
   - 开发工具
   - 代码管理-Git
+abbrlink: 32632
 date: 2018-07-18 10:52:00
 ---
 Githug是一个git练习游戏

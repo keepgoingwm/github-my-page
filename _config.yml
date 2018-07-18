@@ -133,6 +133,10 @@ scroll_to_more: true
 # 是否为侧边栏文章的目录自动添加索引，默认开启。设置为 `false` 关闭
 toc_list_number: true
 
+# hexo-toc目录
+toc:
+  maxDepth: 3
+
 # Use Lato font
 use_font_lato: true
 
