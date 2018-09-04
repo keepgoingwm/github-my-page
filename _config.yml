@@ -23,8 +23,8 @@ admin:
   username: wangnew2013
   password_hash: $2a$10$9tmQUaYZm.Rfi2u/pdu9NujqMKkrVq9Oe/c5/hWLSBp/Rt1ljDvYe
   secret: $2a$10$qyrlqohBEWj5C8mUicfrl.iSOnMKED5.D2mRUzUyAqRB/nztuBH2S
-  # deployCommand: './hexo-deploy.sh'
-  deployCommand: './server-upload.sh'
+  deployCommand: './hexo-deploy.sh'
+  # deployCommand: './server-upload.sh'
   # deployCommand: 'hexo d -g'
   # expire: 60*1
 
