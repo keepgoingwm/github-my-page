@@ -39,7 +39,7 @@ skip_render:   # 跳过指定文件的渲染
 
 deploy:
   type: git
-  repository: git@github.com:keepgoingwm/keepgoingwm.github.io.git
+  repository: https://github.com/keepgoingwm/keepgoingwm.github.io.git
   branch: master
 
 feed:
