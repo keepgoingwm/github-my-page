@@ -25,7 +25,7 @@ admin:
   secret: $2a$10$qyrlqohBEWj5C8mUicfrl.iSOnMKED5.D2mRUzUyAqRB/nztuBH2S
   # deployCommand: './hexo-deploy.sh'
   deployCommand: './server-upload.sh'
-  # deployCommand: 'sudo hexo d -g'
+  # deployCommand: 'hexo d -g'
   # expire: 60*1
 
 # Directory
