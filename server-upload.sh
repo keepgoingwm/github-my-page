@@ -1,4 +1,4 @@
-$HOME=/home/ubuntu
+HOME=/home/ubuntu
 who
 git add . 
 git commit -m 'update'
