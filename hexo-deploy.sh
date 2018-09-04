@@ -1,3 +1,2 @@
-who
-hexo g && hexo d
+hexo d -g
 ./server-upload.sh
