@@ -1,4 +1,4 @@
-git config --global credential.helper store
+$HOME=/home/ubuntu
 who
 git add . 
 git commit -m 'update'
