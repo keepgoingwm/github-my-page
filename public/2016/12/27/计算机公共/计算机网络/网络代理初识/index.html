@@ -90,13 +90,13 @@
 <meta name="keywords" content="计算机网络,学习总结,代理,反向代理,网络">
 <meta property="og:type" content="article">
 <meta property="og:title" content="网络代理初识">
-<meta property="og:url" content="http://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/index.html">
+<meta property="og:url" content="https://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/index.html">
 <meta property="og:site_name" content="wm&#39;s Blog">
 <meta property="og:description" content="网络代理的简单学习">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://7xumuq.com1.z0.glb.clouddn.com/18-6-28/48791755.jpg">
 <meta property="og:image" content="http://7xumuq.com1.z0.glb.clouddn.com/18-6-28/15549619.jpg">
-<meta property="og:updated_time" content="2018-07-18T08:36:40.994Z">
+<meta property="og:updated_time" content="2018-07-18T02:52:25.760Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网络代理初识">
 <meta name="twitter:description" content="网络代理的简单学习">
@@ -128,7 +128,7 @@
 
 
 
-  <link rel="canonical" href="http://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/"/>
+  <link rel="canonical" href="https://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/"/>
 
 
 
@@ -320,7 +320,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/">
+  <link itemprop="mainEntityOfPage" href="https://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="wm">
@@ -447,18 +447,18 @@
       
 
       
-        <h1 id="网络代理初识——正向代理与反向代理"><a href="#网络代理初识——正向代理与反向代理" class="headerlink" title="网络代理初识——正向代理与反向代理"></a>网络代理初识——正向代理与反向代理</h1><h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><p>代理对很多计算机小白来说是个很玄妙的词，对他们和曾经的我来说，代理意味着可以访问Google和Facebook，有个更通俗的描述叫“翻墙”。<br>直到最近才发现，把一个域名解析到某个IP的特定端口，这种操作实际上也是一种代理，而它与“翻墙”相比，恰好是代理的两种方式——前者是<strong>正向代理</strong>，后者是<strong>反向代理</strong>。<br>这里直接引一块玉（如果懒的看，可以直接跳过，试着让我来解释）,</p>
+        <h1><span id="网络代理初识正向代理与反向代理">网络代理初识——正向代理与反向代理</span></h1><h2><span id="引入">引入</span></h2><p>代理对很多计算机小白来说是个很玄妙的词，对他们和曾经的我来说，代理意味着可以访问Google和Facebook，有个更通俗的描述叫“翻墙”。<br>直到最近才发现，把一个域名解析到某个IP的特定端口，这种操作实际上也是一种代理，而它与“翻墙”相比，恰好是代理的两种方式——前者是<strong>正向代理</strong>，后者是<strong>反向代理</strong>。<br>这里直接引一块玉（如果懒的看，可以直接跳过，试着让我来解释）,</p>
 <blockquote>
 <p><a href="https://www.zhihu.com/question/24723688" title="知乎——反向代理为何叫反向代理？" target="_blank" rel="noopener">知乎——反向代理为何叫反向代理？</a></p>
 </blockquote>
-<h2 id="学习与总结"><a href="#学习与总结" class="headerlink" title="学习与总结"></a>学习与总结</h2><p>知乎上回答中的图片很清晰<br><img src="http://7xumuq.com1.z0.glb.clouddn.com/18-6-28/48791755.jpg" alt="正向代理"><br><img src="http://7xumuq.com1.z0.glb.clouddn.com/18-6-28/15549619.jpg" alt="反向代理"></p>
+<h2><span id="学习与总结">学习与总结</span></h2><p>知乎上回答中的图片很清晰<br><img src="http://7xumuq.com1.z0.glb.clouddn.com/18-6-28/48791755.jpg" alt="正向代理"><br><img src="http://7xumuq.com1.z0.glb.clouddn.com/18-6-28/15549619.jpg" alt="反向代理"></p>
 <p>描述实际上也很易懂：</p>
 <ul>
 <li><strong>正向代理</strong>： 在客户端不能直接访问到服务端时，代理服务器将客户端需求转给服务端，并且把服务端的处理结果返还给客户端</li>
 <li><strong>反向代理</strong>： 客户端发出需求到代理服务器，代理服务器根据一定的原则将需求交给某（几）个服务器处理，并且返还处理结果</li>
 </ul>
-<h2 id="延伸思考"><a href="#延伸思考" class="headerlink" title="延伸思考"></a>延伸思考</h2><h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>通过上面的学习，很容易理解到，正向代理可以解决“墙”的问题，只要代理服务器是我们能访问到的</p>
-<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理既然能在代理服务器这个节点上出现一对多的分散访问，<br>1 我们常说的“负载均衡”就必然是它的一个应用方向<br>2 代理服务器能接受到客户端的需求，那么它就可以根据需求的特征来按需分发处理请求，比如按照请求人的名字、区域、喜好来分配服务器<br>3 一个在开发过程很需要的用途——将大网请求按照特征分发到局域网</p>
+<h2><span id="延伸思考">延伸思考</span></h2><h3><span id="正向代理">正向代理</span></h3><p>通过上面的学习，很容易理解到，正向代理可以解决“墙”的问题，只要代理服务器是我们能访问到的</p>
+<h3><span id="反向代理">反向代理</span></h3><p>反向代理既然能在代理服务器这个节点上出现一对多的分散访问，<br>1 我们常说的“负载均衡”就必然是它的一个应用方向<br>2 代理服务器能接受到客户端的需求，那么它就可以根据需求的特征来按需分发处理请求，比如按照请求人的名字、区域、喜好来分配服务器<br>3 一个在开发过程很需要的用途——将大网请求按照特征分发到局域网</p>
 
       
     </div>
@@ -519,7 +519,7 @@
         <div class="ds-share flat" data-thread-key="2016/12/27/计算机公共/计算机网络/网络代理初识/"
      data-title="网络代理初识"
      data-content=""
-     data-url="http://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/">
+     data-url="https://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -547,7 +547,7 @@
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2016/12/27/计算机公共/计算机网络/网络代理初识/"
-           data-title="网络代理初识" data-url="http://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/">
+           data-title="网络代理初识" data-url="https://keepgoingwm.github.io/2016/12/27/计算机公共/计算机网络/网络代理初识/">
       </div>
     
   </div>
@@ -585,7 +585,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -603,7 +603,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
