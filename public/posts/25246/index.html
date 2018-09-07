@@ -96,7 +96,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://7xumuq.com1.z0.glb.clouddn.com/17-8-24/21048490.jpg">
 <meta property="og:image" content="http://7xumuq.com1.z0.glb.clouddn.com/17-8-24/77321832.jpg">
-<meta property="og:updated_time" content="2018-07-18T08:36:40.967Z">
+<meta property="og:updated_time" content="2018-07-18T02:52:25.760Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="为什么喜欢egg框架">
 <meta name="twitter:description" content="点进来看看吧">
@@ -443,27 +443,27 @@
 <p>从名字’egg’看，它的能力是<strong>孵化</strong>，孵化应用。使用egg框架写了一个小应用后，发现它满足了我对一个框架在开发模式上的所有幻想，并且做了更多，真心点了个赞。</p>
 </blockquote>
 <p><a href="https://github.com/eggjs/egg/" target="_blank" rel="noopener">eggjs git</a><br><a href="https://eggjs.org/zh-cn/" target="_blank" rel="noopener">eggjs 主页</a></p>
-<h2 id="说说egg的优点"><a href="#说说egg的优点" class="headerlink" title="说说egg的优点"></a>说说egg的优点</h2><h3 id="站在巨人的肩膀上"><a href="#站在巨人的肩膀上" class="headerlink" title="站在巨人的肩膀上"></a>站在巨人的肩膀上</h3><ul>
+<h2><span id="说说egg的优点">说说egg的优点</span></h2><h3><span id="站在巨人的肩膀上">站在巨人的肩膀上</span></h3><ul>
 <li>它继承于koa，拥有koa方便的Application对象结构和优秀的middlewire机制，同时把koa的基础操作封装起来，不需要使用者动手。</li>
 <li>它可是阿里前端团队的作品，在阿里的Node.js项目中广泛使用，经历考验和蜕变</li>
 </ul>
-<h3 id="简单点，写作的方式简单点"><a href="#简单点，写作的方式简单点" class="headerlink" title="简单点，写作的方式简单点"></a>简单点，写作的方式简单点</h3><ul>
+<h3><span id="简单点写作的方式简单点">简单点，写作的方式简单点</span></h3><ul>
 <li><p>它基于目录结构解析出多个种类的内置对象，并且可以自动完成类到实例的转化。<br><img src="http://7xumuq.com1.z0.glb.clouddn.com/17-8-24/21048490.jpg" alt=""></p>
 </li>
 <li><p>使用者要做的是把代码安插在合适的文件中，这使得代码结构很扁平，几乎就只需要罗列配置和方法。</p>
 </li>
 <li>使用者 不需要对内部对象进行维护，但却可以方便取用，因为框架会在合适的地方把它们暴露出来 。</li>
 </ul>
-<h3 id="其实并不简单"><a href="#其实并不简单" class="headerlink" title="其实并不简单"></a>其实并不简单</h3><ul>
+<h3><span id="其实并不简单">其实并不简单</span></h3><ul>
 <li>继承于koa框架，同时汲取express的历史沉淀，它已经继承和创造很多特性、插件，异常处理、会话管理、数据库管理等等都有相应的解决方案。</li>
 <li>它拥有充分的可扩展性，它的扩展可以是插件和框架级别的，沉淀代码绝对方便。</li>
 </ul>
-<h3 id="因为一致，所以高度定制"><a href="#因为一致，所以高度定制" class="headerlink" title="因为一致，所以高度定制"></a>因为一致，所以高度定制</h3><ul>
+<h3><span id="因为一致所以高度定制">因为一致，所以高度定制</span></h3><ul>
 <li>它约束的是风格、上层的对象结构，并没有做默认的技术选型，也不默认添加可能用不到的功能。</li>
 <li>app、框架、插件遵循相同结构，使得插件和框架的写作很方便，这就让使用者定制插件、框架都很容易，根据模板写作业务逻辑即可。</li>
 <li>插件、框架的引入模式统一且简单，只要声明和必要的配置即可，不要处理导入、创造实例等动作。</li>
 </ul>
-<h3 id="大家都要的，框架来实现"><a href="#大家都要的，框架来实现" class="headerlink" title="大家都要的，框架来实现"></a>大家都要的，框架来实现</h3><ul>
+<h3><span id="大家都要的框架来实现">大家都要的，框架来实现</span></h3><ul>
 <li>统一清晰的配置机制，但又可以根据环境类型进行差异化配置。</li>
 <li><p>异步编程，不需要额外编译，就可以使用async function和generator，让使用者可以优雅的同步方式编写异步代码</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span>* <span class="title">main</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'start run...'</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">yield</span> tick(<span class="number">500</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">yield</span> tick(<span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">yield</span> tick(<span class="number">2000</span>);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -471,10 +471,10 @@
 <li><p>它使用cluster实现多线程，在生产环境也仅仅需要几行配置。它同时实现了不同进程类型间的通信，多进程模型绝对不是一个玩具。</p>
 </li>
 </ul>
-<h3 id="文档好才是真的好"><a href="#文档好才是真的好" class="headerlink" title="文档好才是真的好"></a>文档好才是真的好</h3><ul>
+<h3><span id="文档好才是真的好">文档好才是真的好</span></h3><ul>
 <li>它的官方文档真的很不错，可操作性强、板块合理、内容详尽，而且颜值高<br><img src="http://7xumuq.com1.z0.glb.clouddn.com/17-8-24/77321832.jpg" alt=""></li>
 </ul>
-<h2 id="顾虑"><a href="#顾虑" class="headerlink" title="顾虑"></a>顾虑</h2><h3 id="性能"><a href="#性能" class="headerlink" title="性能"></a>性能</h3><p>至少它应该不会比koa，在网上也看到，由于没有实践，不能做出评论</p>
+<h2><span id="顾虑">顾虑</span></h2><h3><span id="性能">性能</span></h3><p>至少它应该不会比koa，在网上也看到，由于没有实践，不能做出评论</p>
 
       
     </div>
@@ -612,7 +612,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">14</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
