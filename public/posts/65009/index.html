@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="你看不懂的JavaScript一些别有用心的写法、一些语法糖、一些巧妙的用法 语法糖、语法简略属性函数省略function关键字12345obj &amp;#123;  key1: function () &amp;#123;    //something  &amp;#125;&amp;#125; 上面代码可以简写为（E6提供）12345obj &amp;#123;  key1 () &amp;#123;    //something  &amp;#">
+<meta name="description" content="你看不懂的JavaScriptblah blah blah   一些别有用心的写法、一些语法糖、一些巧妙的用法 语法糖、语法简略属性函数省略function关键字12345obj &amp;#123;  key1: function () &amp;#123;    //something  &amp;#125;&amp;#125; 上面代码可以简写为（E6提供）12345obj &amp;#123;  key1 () &amp;#123;">
 <meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="你看不懂的JavaScript">
 <meta property="og:url" content="https://keepgoingwm.github.io/posts/65009/index.html">
 <meta property="og:site_name" content="wm&#39;s Blog">
-<meta property="og:description" content="你看不懂的JavaScript一些别有用心的写法、一些语法糖、一些巧妙的用法 语法糖、语法简略属性函数省略function关键字12345obj &amp;#123;  key1: function () &amp;#123;    //something  &amp;#125;&amp;#125; 上面代码可以简写为（E6提供）12345obj &amp;#123;  key1 () &amp;#123;    //something  &amp;#">
+<meta property="og:description" content="你看不懂的JavaScriptblah blah blah   一些别有用心的写法、一些语法糖、一些巧妙的用法 语法糖、语法简略属性函数省略function关键字12345obj &amp;#123;  key1: function () &amp;#123;    //something  &amp;#125;&amp;#125; 上面代码可以简写为（E6提供）12345obj &amp;#123;  key1 () &amp;#123;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-18T02:52:25.760Z">
+<meta property="og:updated_time" content="2018-09-15T09:18:23.240Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你看不懂的JavaScript">
-<meta name="twitter:description" content="你看不懂的JavaScript一些别有用心的写法、一些语法糖、一些巧妙的用法 语法糖、语法简略属性函数省略function关键字12345obj &amp;#123;  key1: function () &amp;#123;    //something  &amp;#125;&amp;#125; 上面代码可以简写为（E6提供）12345obj &amp;#123;  key1 () &amp;#123;    //something  &amp;#">
+<meta name="twitter:description" content="你看不懂的JavaScriptblah blah blah   一些别有用心的写法、一些语法糖、一些巧妙的用法 语法糖、语法简略属性函数省略function关键字12345obj &amp;#123;  key1: function () &amp;#123;    //something  &amp;#125;&amp;#125; 上面代码可以简写为（E6提供）12345obj &amp;#123;  key1 () &amp;#123;">
 
 
 
@@ -440,7 +440,9 @@
       
 
       
-        <h1><span id="你看不懂的javascript">你看不懂的JavaScript</span></h1><p>一些别有用心的写法、一些语法糖、一些巧妙的用法</p>
+        <h1><span id="你看不懂的javascript">你看不懂的JavaScript</span></h1><blockquote class="blockquote-center"><p>blah blah blah </p>
+</blockquote>
+<p>一些别有用心的写法、一些语法糖、一些巧妙的用法</p>
 <h2><span id="语法糖-语法简略">语法糖、语法简略</span></h2><h3><span id="属性函数省略function关键字">属性函数省略function关键字</span></h3><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">obj &#123;</span><br><span class="line">  key1: <span class="function"><span class="keyword">function</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//something</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>上面代码可以简写为（E6提供）<br><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">obj </span>&#123;</span><br><span class="line">  key1 () &#123;</span><br><span class="line">    <span class="comment">//something</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h3><span id="转为boolean型"><code>!!</code>转为Boolean型</span></h3><figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (!!<span class="attr">string1</span> === <span class="literal">true</span> ) &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>

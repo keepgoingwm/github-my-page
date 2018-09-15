@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://keepgoingwm.github.io/posts/65009/</loc>
+    
+    <lastmod>2018-09-15T09:18:23.240Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://keepgoingwm.github.io/posts/41630/</loc>
     
     <lastmod>2018-09-07T12:41:43.988Z</lastmod>
@@ -37,7 +44,7 @@
   </url>
   
   <url>
-    <loc>https://keepgoingwm.github.io/posts/36180/</loc>
+    <loc>https://keepgoingwm.github.io/posts/6686/</loc>
     
     <lastmod>2018-07-18T02:52:25.760Z</lastmod>
     
@@ -51,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://keepgoingwm.github.io/posts/65009/</loc>
-    
-    <lastmod>2018-07-18T02:52:25.760Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://keepgoingwm.github.io/posts/25246/</loc>
     
     <lastmod>2018-07-18T02:52:25.760Z</lastmod>
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://keepgoingwm.github.io/posts/6686/</loc>
+    <loc>https://keepgoingwm.github.io/posts/36180/</loc>
     
     <lastmod>2018-07-18T02:52:25.760Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://keepgoingwm.github.io/about/index.html</loc>
+    <loc>https://keepgoingwm.github.io/404.html</loc>
     
     <lastmod>2018-06-20T07:23:28.220Z</lastmod>
     
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://keepgoingwm.github.io/404.html</loc>
+    <loc>https://keepgoingwm.github.io/categories/index.html</loc>
     
     <lastmod>2018-06-20T07:23:28.220Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://keepgoingwm.github.io/categories/index.html</loc>
+    <loc>https://keepgoingwm.github.io/about/index.html</loc>
     
     <lastmod>2018-06-20T07:23:28.220Z</lastmod>
     
