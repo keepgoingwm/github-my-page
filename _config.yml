@@ -88,11 +88,11 @@ category_generator:
 # Site Information Settings
 # ---------------------------------------------------------------
 favicon: /favicon.ico
-title: wm's Blog # 站点标题
+title: awam's Blog # 站点标题
 subtitle: 乱弹 # 副标题
 description: 这是我的一亩三分地
 avatar: /images/avatar/avatar.jpg
-author: wm
+author: awam
 sidebar:
   position: left
 
