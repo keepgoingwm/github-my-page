@@ -21,10 +21,10 @@ abbrlink:
 
 # hexo-admin authentification
 admin:
-  username: wangnew2013
-  password_hash: $2a$10$9tmQUaYZm.Rfi2u/pdu9NujqMKkrVq9Oe/c5/hWLSBp/Rt1ljDvYe
-  secret: $2a$10$qyrlqohBEWj5C8mUicfrl.iSOnMKED5.D2mRUzUyAqRB/nztuBH2S
-  deployCommand: './hexo-deploy.sh'
+  # username: 
+  # password_hash: 
+  # secret: 
+  # deployCommand: './hexo-deploy.sh'
   # deployCommand: './server-upload.sh'
   # deployCommand: 'hexo d -g'
   # expire: 60*1
@@ -90,7 +90,8 @@ category_generator:
 favicon: /favicon.ico
 title: awam's Blog # 站点标题
 subtitle: 乱弹 # 副标题
-description: 这是我的一亩三分地
+description: 前端开发，JavaScript，这是我的一亩三分地
+keywords: 前端开发,技术,JavaScript,博客,樰糕
 avatar: /images/avatar/avatar.jpg
 author: awam
 sidebar:
