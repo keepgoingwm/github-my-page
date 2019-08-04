@@ -17,7 +17,7 @@ before_install:
 ###################
 before_script:
 script:
-  - hexo deploy -g
+  - hexo clean && hexo deploy
 after_success:
 #   - chmod +x .travis/hexo-deploy.sh
 #   - .travis/hexo-deploy.sh
