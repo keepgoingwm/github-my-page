@@ -10,3 +10,4 @@ db.json
 *debug.log
 nohup.out
 public/
+_admin-config.yml
