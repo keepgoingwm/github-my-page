@@ -1,0 +1,1 @@
+curl -u "username:${GH_TOKEN}" https://github.com/keepgoingwm/keepgoingwm.github.io.git > /dev/null 2>&1
