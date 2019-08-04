@@ -1,4 +1,6 @@
 language: node_js
+node_js:
+  - "8"
 cache:
   directories:
     - node_modules
@@ -15,7 +17,7 @@ before_install:
 ###################
 before_script:
 script:
-  - hexo deploy
+  - hexo deploy -g
 after_success:
 #   - chmod +x .travis/hexo-deploy.sh
 #   - .travis/hexo-deploy.sh
