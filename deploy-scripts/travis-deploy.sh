@@ -41,6 +41,4 @@ init_deploy_dir
 cd .deploy_git
 setup_git
 commit_website_files
-pwd
-git status
 upload_files
