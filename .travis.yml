@@ -23,6 +23,6 @@ script:
   - hexo g
 after_success:
   - chmod +x deploy-scripts/travis-deploy.sh
-  - deploy-scripts/travis-deploy.sh
+  - . deploy-scripts/travis-deploy.sh
 after_failure:
   - ls -a
