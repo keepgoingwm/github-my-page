@@ -37,7 +37,7 @@ upload_files() {
 }
 
 init_deploy_dir
-setup_git
 cd .deploy_git
+setup_git
 commit_website_files
 upload_files
